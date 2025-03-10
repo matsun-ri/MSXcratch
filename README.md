@@ -7,10 +7,10 @@ Scratch感覚でMSXのコーディングができる環境をお楽しみくだ�
 
 ## 画面サンプル
 <p>
-<img src="/data/fizzbuzz_src.jpg" alt="ソース" height="160">
-<img src="/data/fizzbuzz_scr.jpg" alt="実行結果" height="160">
-<img src="/data/one-key-game_src.jpg" alt="ソース" height="160">
-<img src="/data/one-key-game_scr.jpg" alt="実行結果" height="160">
+<img src="./data/fizzbuzz_src.jpg" alt="ソース" height="160">
+<img src="./data/fizzbuzz_scr.jpg" alt="実行結果" height="160">
+<img src="./data/one-key-game_src.jpg" alt="ソース" height="160">
+<img src="./data/one-key-game_scr.jpg" alt="実行結果" height="160">
 </p>
 
 ## できること
