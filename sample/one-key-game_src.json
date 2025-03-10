@@ -1,0 +1,768 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "msx_main",
+        "id": "(F^_LS1:cU~KN[,H.ni6",
+        "x": -443,
+        "y": 53,
+        "inputs": {
+          "statement_do": {
+            "block": {
+              "type": "msx_deftype",
+              "id": "2`8o^EbxZ6aoSykj4=7{",
+              "fields": {
+                "str_deftype": "INT"
+              },
+              "next": {
+                "block": {
+                  "type": "msx_dim",
+                  "id": "7z^xb{T7x*8V|k9`%|V)",
+                  "fields": {
+                    "str_var_array": "x(10)"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_dim",
+                      "id": "@xe}4nfEj-JjY7wmGhJO",
+                      "fields": {
+                        "str_var_array": "y(10)"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_dim",
+                          "id": "i)gouMy%WbcEIzmlQoaG",
+                          "fields": {
+                            "str_var_array": "vx(10)"
+                          },
+                          "next": {
+                            "block": {
+                              "type": "msx_call_subproc",
+                              "id": "L;+2{qN,a[QzzHkJyWfD",
+                              "fields": {
+                                "str_proc_name": "初期化処理"
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "msx_call_subproc",
+                                  "id": "O[]IOvQo}(tZp?voR/^U",
+                                  "fields": {
+                                    "str_proc_name": "全敵初期化"
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "msx_let",
+                                      "id": "6[YrVNNO)s|S~=wy-bV[",
+                                      "fields": {
+                                        "str_let_arg0": "y",
+                                        "str_let_arg1": "30"
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "msx_let",
+                                          "id": "X0c~,v*oU-lXEaZWykGJ",
+                                          "fields": {
+                                            "str_let_arg0": "vy",
+                                            "str_let_arg1": "0"
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "msx_let",
+                                              "id": "90{W~S,][#NAZ08x0=Vt",
+                                              "fields": {
+                                                "str_let_arg0": "sc",
+                                                "str_let_arg1": "0"
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "msx_let",
+                                                  "id": "A;DWeRh?R|RK~VezUYKd",
+                                                  "fields": {
+                                                    "str_let_arg0": "d",
+                                                    "str_let_arg1": "0"
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "msx_sound",
+                                                      "id": "q:7FV.L0?52apbJj(@0}",
+                                                      "fields": {
+                                                        "num_channel": "8",
+                                                        "num_param": "12"
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "msx_sound",
+                                                          "id": "`EA+=XBYC8AP.~$|(rRG",
+                                                          "fields": {
+                                                            "num_channel": "1",
+                                                            "num_param": "1"
+                                                          },
+                                                          "next": {
+                                                            "block": {
+                                                              "type": "msx_while",
+                                                              "id": "%+vC{Z^FQ[`;zlQl1yUU",
+                                                              "fields": {
+                                                                "num_condition": "d=0"
+                                                              },
+                                                              "inputs": {
+                                                                "statement_do": {
+                                                                  "block": {
+                                                                    "type": "msx_call_subproc",
+                                                                    "id": "k6{(@^DFXcmzXgL:@ua+",
+                                                                    "fields": {
+                                                                      "str_proc_name": "自機移動"
+                                                                    },
+                                                                    "next": {
+                                                                      "block": {
+                                                                        "type": "msx_call_subproc",
+                                                                        "id": "](-FrRly[d$U?jCV9c8A",
+                                                                        "fields": {
+                                                                          "str_proc_name": "敵機移動"
+                                                                        },
+                                                                        "next": {
+                                                                          "block": {
+                                                                            "type": "msx_call_subproc",
+                                                                            "id": "HD*|L[%2r,,1w~.|brYL",
+                                                                            "fields": {
+                                                                              "str_proc_name": "当たり判定"
+                                                                            },
+                                                                            "next": {
+                                                                              "block": {
+                                                                                "type": "msx_let",
+                                                                                "id": "}4eugtjGd:m~?}Xtz:`Z",
+                                                                                "fields": {
+                                                                                  "str_let_arg0": "sc",
+                                                                                  "str_let_arg1": "sc+1"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "next": {
+                                                                "block": {
+                                                                  "type": "msx_screen",
+                                                                  "id": "M1F3=ddWT;nFpyxus3:g",
+                                                                  "fields": {
+                                                                    "num_screen_no": "1"
+                                                                  },
+                                                                  "next": {
+                                                                    "block": {
+                                                                      "type": "msx_print",
+                                                                      "id": ":/Ps+/Y|*_SmU)u|8`y$",
+                                                                      "fields": {
+                                                                        "str_text": "\"SCORE:\";sc"
+                                                                      },
+                                                                      "next": {
+                                                                        "block": {
+                                                                          "type": "msx_beep",
+                                                                          "id": "W;d.59Odke|m7(RE#7Pu"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "p):JJ[2C!tbc)aBOYsBr",
+        "x": 251,
+        "y": 527,
+        "fields": {
+          "str_proc_name": "自機移動"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_let_f",
+              "id": "4BC`cG,iwZZaB3yTEzGL",
+              "fields": {
+                "str_let_arg0": "a"
+              },
+              "inputs": {
+                "str_let_arg1": {
+                  "block": {
+                    "type": "msx_strig",
+                    "id": "HCF0WS4=XG~0#yAKq3]B",
+                    "fields": {
+                      "num_strig": "0"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_if_else",
+                  "id": "D4HEqtFcN3xCWlUHP$w@",
+                  "fields": {
+                    "num_condition": "a=-1"
+                  },
+                  "inputs": {
+                    "statement_then": {
+                      "block": {
+                        "type": "msx_if_then",
+                        "id": "ISEziRvkTTBt?M#;lR=!",
+                        "fields": {
+                          "num_condition": "-12<vy"
+                        },
+                        "inputs": {
+                          "statement_then": {
+                            "block": {
+                              "type": "msx_let",
+                              "id": "M+WQWnf6D;fm:w+0Umni",
+                              "fields": {
+                                "str_let_arg0": "vy",
+                                "str_let_arg1": "vy-2"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "statement_else": {
+                      "block": {
+                        "type": "msx_if_then",
+                        "id": "]AJb(Pw_0Z_=Lrl;i#of",
+                        "fields": {
+                          "num_condition": "vy<12"
+                        },
+                        "inputs": {
+                          "statement_then": {
+                            "block": {
+                              "type": "msx_let",
+                              "id": "B-d%#Y;p%8H;LOKVN#?1",
+                              "fields": {
+                                "str_let_arg0": "vy",
+                                "str_let_arg1": "vy+1"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_let",
+                      "id": "-w[o9_G-%*q(.UNDz~On",
+                      "fields": {
+                        "str_let_arg0": "y",
+                        "str_let_arg1": "y+vy\\4"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_put_sprite",
+                          "id": "@_r=E?W+|K4052q2fG+$",
+                          "fields": {
+                            "num_priority": "0",
+                            "num_x": "8",
+                            "num_y": "y",
+                            "num_color": "15",
+                            "num_pattern": "0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "j7STnXK:SqlVBde4#m}p",
+        "x": 718,
+        "y": 50,
+        "fields": {
+          "str_proc_name": "敵機移動"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_for",
+              "id": "t`(5z7do01NQN8u9FV04",
+              "fields": {
+                "str_varable": "i",
+                "num_start": "1",
+                "num_dest": "10",
+                "num_step": "1"
+              },
+              "inputs": {
+                "statement_do": {
+                  "block": {
+                    "type": "msx_let",
+                    "id": "vqKwJo~I#fVlN]u3qrw0",
+                    "fields": {
+                      "str_let_arg0": "x(i)",
+                      "str_let_arg1": "x(i)-vx(i)"
+                    },
+                    "next": {
+                      "block": {
+                        "type": "msx_if_then",
+                        "id": "SCJj~V603B+o$3RB{z{)",
+                        "fields": {
+                          "num_condition": "x(i)<-10"
+                        },
+                        "inputs": {
+                          "statement_then": {
+                            "block": {
+                              "type": "msx_call_subproc",
+                              "id": "?#u{`hbEao3[E4j3kV(f",
+                              "fields": {
+                                "str_proc_name": "敵初期化"
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "msx_put_sprite",
+                            "id": ")$gMBPCOXb]^yUxw6:eE",
+                            "fields": {
+                              "num_priority": "i",
+                              "num_x": "x(i)",
+                              "num_y": "y(i)",
+                              "num_color": "i+1",
+                              "num_pattern": "1"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "90V%F@P5+qVKI{kE:)0D",
+        "x": -75,
+        "y": 48,
+        "fields": {
+          "str_proc_name": "初期化処理"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_color",
+              "id": "KCCv%OTF/62,G)pH7v@p",
+              "fields": {
+                "num_fore": "15",
+                "num_back": "1",
+                "num_surr": "6"
+              },
+              "next": {
+                "block": {
+                  "type": "msx_screen",
+                  "id": "=RE}l^XV{N5GJwORzi4*",
+                  "fields": {
+                    "num_screen_no": "5"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_sprite_size",
+                      "id": "6GjJ!2:Y-H-W5|movEq:",
+                      "fields": {
+                        "num_sprite_size": "1"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_sprite_pattern_8x8",
+                          "id": "1[luOLF(4;{ZM)0ZF?y5",
+                          "fields": {
+                            "num_pattern_no": "0",
+                            "arg00": true,
+                            "arg10": false,
+                            "arg20": false,
+                            "arg30": false,
+                            "arg40": false,
+                            "arg50": false,
+                            "arg60": false,
+                            "arg70": false,
+                            "arg01": false,
+                            "arg11": true,
+                            "arg21": true,
+                            "arg31": false,
+                            "arg41": false,
+                            "arg51": false,
+                            "arg61": false,
+                            "arg71": false,
+                            "arg02": false,
+                            "arg12": false,
+                            "arg22": true,
+                            "arg32": true,
+                            "arg42": true,
+                            "arg52": false,
+                            "arg62": false,
+                            "arg72": false,
+                            "arg03": false,
+                            "arg13": false,
+                            "arg23": true,
+                            "arg33": true,
+                            "arg43": true,
+                            "arg53": true,
+                            "arg63": true,
+                            "arg73": true,
+                            "arg04": false,
+                            "arg14": true,
+                            "arg24": true,
+                            "arg34": true,
+                            "arg44": false,
+                            "arg54": false,
+                            "arg64": false,
+                            "arg74": false,
+                            "arg05": true,
+                            "arg15": false,
+                            "arg25": false,
+                            "arg35": false,
+                            "arg45": false,
+                            "arg55": false,
+                            "arg65": false,
+                            "arg75": false,
+                            "arg06": false,
+                            "arg16": false,
+                            "arg26": false,
+                            "arg36": false,
+                            "arg46": false,
+                            "arg56": false,
+                            "arg66": false,
+                            "arg76": false,
+                            "arg07": false,
+                            "arg17": false,
+                            "arg27": false,
+                            "arg37": false,
+                            "arg47": false,
+                            "arg57": false,
+                            "arg67": false,
+                            "arg77": false
+                          },
+                          "next": {
+                            "block": {
+                              "type": "msx_sprite_pattern_8x8",
+                              "id": "-/^^`b3:*Zg(14^xJIWG",
+                              "fields": {
+                                "num_pattern_no": "1",
+                                "arg00": false,
+                                "arg10": false,
+                                "arg20": true,
+                                "arg30": false,
+                                "arg40": false,
+                                "arg50": false,
+                                "arg60": true,
+                                "arg70": true,
+                                "arg01": false,
+                                "arg11": true,
+                                "arg21": true,
+                                "arg31": true,
+                                "arg41": true,
+                                "arg51": true,
+                                "arg61": false,
+                                "arg71": false,
+                                "arg02": true,
+                                "arg12": false,
+                                "arg22": true,
+                                "arg32": true,
+                                "arg42": true,
+                                "arg52": false,
+                                "arg62": true,
+                                "arg72": false,
+                                "arg03": true,
+                                "arg13": true,
+                                "arg23": false,
+                                "arg33": true,
+                                "arg43": false,
+                                "arg53": true,
+                                "arg63": true,
+                                "arg73": false,
+                                "arg04": true,
+                                "arg14": true,
+                                "arg24": true,
+                                "arg34": true,
+                                "arg44": true,
+                                "arg54": true,
+                                "arg64": true,
+                                "arg74": false,
+                                "arg05": false,
+                                "arg15": true,
+                                "arg25": true,
+                                "arg35": true,
+                                "arg45": true,
+                                "arg55": true,
+                                "arg65": true,
+                                "arg75": false,
+                                "arg06": false,
+                                "arg16": false,
+                                "arg26": false,
+                                "arg36": true,
+                                "arg46": true,
+                                "arg56": true,
+                                "arg66": true,
+                                "arg76": false,
+                                "arg07": false,
+                                "arg17": false,
+                                "arg27": false,
+                                "arg37": false,
+                                "arg47": false,
+                                "arg57": true,
+                                "arg67": true,
+                                "arg77": true
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "w3,OhQf$M,GC)R_rWN8{",
+        "x": 719,
+        "y": 511,
+        "fields": {
+          "str_proc_name": "当たり判定"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_if_else",
+              "id": "12Jcx80BeTyg4x,,3cfT",
+              "fields": {
+                "num_condition": "y<0"
+              },
+              "inputs": {
+                "statement_then": {
+                  "block": {
+                    "type": "msx_let",
+                    "id": "v2L#ff!1}H^#j/*4aCXy",
+                    "fields": {
+                      "str_let_arg0": "d",
+                      "str_let_arg1": "1"
+                    }
+                  }
+                },
+                "statement_else": {
+                  "block": {
+                    "type": "msx_sound",
+                    "id": "-QR#Pt]/mTm=_wM%iN)r",
+                    "fields": {
+                      "num_channel": "0",
+                      "num_param": "y"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_if_then",
+                  "id": "Ve~`n{yw*%WW`*-+2[15",
+                  "fields": {
+                    "num_condition": "196<y"
+                  },
+                  "inputs": {
+                    "statement_then": {
+                      "block": {
+                        "type": "msx_let",
+                        "id": ".|,;H+01I~$!egF@{NF/",
+                        "fields": {
+                          "str_let_arg0": "d",
+                          "str_let_arg1": "1"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_for",
+                      "id": "fp]5,[}I50u;zqaJyi]d",
+                      "fields": {
+                        "str_varable": "i",
+                        "num_start": "1",
+                        "num_dest": "10",
+                        "num_step": "1"
+                      },
+                      "inputs": {
+                        "statement_do": {
+                          "block": {
+                            "type": "msx_if_then",
+                            "id": "0L8nXO*0#k97@EKVgaxM",
+                            "fields": {
+                              "num_condition": "(x(i)<8+6) and (8+6<x(i)+12)"
+                            },
+                            "inputs": {
+                              "statement_then": {
+                                "block": {
+                                  "type": "msx_if_then",
+                                  "id": "jg1@K/K%II,mC0RNF$Zw",
+                                  "fields": {
+                                    "num_condition": "(y(i)<y+6) and (y+6<y(i)+12)"
+                                  },
+                                  "inputs": {
+                                    "statement_then": {
+                                      "block": {
+                                        "type": "msx_let",
+                                        "id": "tT6!Kt`v8#88[i(]Cai:",
+                                        "fields": {
+                                          "str_let_arg0": "d",
+                                          "str_let_arg1": "1"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "!+YLJ8DraUHt4)Xu_[bA",
+        "x": 254,
+        "y": 46,
+        "fields": {
+          "str_proc_name": "全敵初期化"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_for",
+              "id": "kZKTm:GEwM[X{,QJSfhy",
+              "fields": {
+                "str_varable": "i",
+                "num_start": "1",
+                "num_dest": "10",
+                "num_step": "1"
+              },
+              "inputs": {
+                "statement_do": {
+                  "block": {
+                    "type": "msx_call_subproc",
+                    "id": "4S9C2c8D_7)lP]Asv7hb",
+                    "fields": {
+                      "str_proc_name": "敵初期化"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "qYt^tG]k6[S=Pb=86_l@",
+        "x": 254,
+        "y": 278,
+        "fields": {
+          "str_proc_name": "敵初期化"
+        },
+        "inputs": {
+          "statement_sub": {
+            "block": {
+              "type": "msx_let",
+              "id": "B!O[K$xzCdl9{uRwx0k.",
+              "fields": {
+                "str_let_arg0": "x(i)",
+                "str_let_arg1": "255"
+              },
+              "next": {
+                "block": {
+                  "type": "msx_let_f",
+                  "id": "4R6oS4Aj?]jsP8WZciZ^",
+                  "fields": {
+                    "str_let_arg0": "y(i)"
+                  },
+                  "inputs": {
+                    "str_let_arg1": {
+                      "block": {
+                        "type": "msx_random",
+                        "id": "CThv2QcI+LyA@c#S#D-]",
+                        "fields": {
+                          "num_min": "1",
+                          "num_max": "188"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_let_f",
+                      "id": "5Wz+r+v+5BT:0(}b$U(~",
+                      "fields": {
+                        "str_let_arg0": "vx(i)"
+                      },
+                      "inputs": {
+                        "str_let_arg1": {
+                          "block": {
+                            "type": "msx_random",
+                            "id": "T:s6hQCND+L@{N!Kc+d-",
+                            "fields": {
+                              "num_min": "1",
+                              "num_max": "4"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

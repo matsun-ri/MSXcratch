@@ -1,0 +1,98 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "msx_main",
+        "id": "GRh%|Ya@|[TStoK?LKE/",
+        "x": 50,
+        "y": 50,
+        "inputs": {
+          "statement_do": {
+            "block": {
+              "type": "msx_for",
+              "id": "!SVJvUqr#/9LJujl:YZL",
+              "fields": {
+                "str_varable": "i",
+                "num_start": "1",
+                "num_dest": "20",
+                "num_step": "1"
+              },
+              "inputs": {
+                "statement_do": {
+                  "block": {
+                    "type": "msx_if_else",
+                    "id": "5-(qL`ofEiv;q~YOg[KD",
+                    "fields": {
+                      "num_condition": "i mod 15 = 0"
+                    },
+                    "inputs": {
+                      "statement_then": {
+                        "block": {
+                          "type": "msx_print",
+                          "id": "=%z6RJw,48Qzdb3!y?ml",
+                          "fields": {
+                            "str_text": "\"FizzBuzz\""
+                          }
+                        }
+                      },
+                      "statement_else": {
+                        "block": {
+                          "type": "msx_if_else",
+                          "id": "8_2;|ztIjFlUZ+*BF%:b",
+                          "fields": {
+                            "num_condition": "i mod 3 = 0"
+                          },
+                          "inputs": {
+                            "statement_then": {
+                              "block": {
+                                "type": "msx_print",
+                                "id": "(R?dB,|]7B2e]h,BixV!",
+                                "fields": {
+                                  "str_text": "\"Fizz\""
+                                }
+                              }
+                            },
+                            "statement_else": {
+                              "block": {
+                                "type": "msx_if_else",
+                                "id": "_klph.*rLmWfit1@W0cF",
+                                "fields": {
+                                  "num_condition": "i mod 5 = 0"
+                                },
+                                "inputs": {
+                                  "statement_then": {
+                                    "block": {
+                                      "type": "msx_print",
+                                      "id": "VJ8kd/ptO9`)+})E%En*",
+                                      "fields": {
+                                        "str_text": "\"Buzz\""
+                                      }
+                                    }
+                                  },
+                                  "statement_else": {
+                                    "block": {
+                                      "type": "msx_print",
+                                      "id": "R$IA^z,6{9E.n8Q~I`g,",
+                                      "fields": {
+                                        "str_text": "i"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
