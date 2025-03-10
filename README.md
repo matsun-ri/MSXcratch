@@ -38,8 +38,8 @@ Scratch感覚でMSXのコーディングができる環境をお楽しみくだ�
 - msx-block-gen.js ボタンイベントの処理
 
 ## サンプル
-- FizzBuzz fizzbuzz_src.json
-- ワンキーゲーム one-key-game_src.json
+- FizzBuzz <a href="./sample/fizzbuzz_src.json">fizzbuzz_src.json</a>
+- ワンキーゲーム <a href="./sample/one-key-game_src.json">one-key-game_src.json</a>
   - スペースキーで上昇、離すと下降。BASICだと遅いので**ぜひ『MSXべーしっ君』で**。
 
 ## 命令一覧 
