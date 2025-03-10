@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BlocklyでMSX BASICのソースを作ってみるテスト</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2列を均等に */
+      gap: 5px;
+    }
+
+    .button-row {
+      display: contents; /* 行コンテナを無視してGrid直下に */
+    }
+
+    .textarea-group {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Blocklyの動作環境 -->
+  <!-- Load Blockly core -->
+  <script src="https://unpkg.com/blockly/blockly_compressed.js"></script>
+  <!-- Load the default blocks -->
+  <script src="https://unpkg.com/blockly/blocks_compressed.js"></script>
+  <!-- Load a generator -->
+  <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
+  <!-- Load a message file -->
+  <script src="https://unpkg.com/blockly/msg/ja.js"></script>
+
+  <!-- 自作ブロックのスクリプト -->
+  <script src="msx-block-def.js"></script>
+
+  <!-- Blocklyワークスペース置き場 -->
+  <div id="blocklyDiv" style="width: 97vw; height: 85vh;"></div>
+
+  <!-- ボタン領域 -->
+  <div class="container">
+    <div class="button-group">
+      <div class="button-row">
+        <button onclick="saveCodeArea()">クイック保存</button>
+        <button onclick="loadCodeArea()">クイック読込</button>
+      </div>
+      <div class="button-row">
+        <button onclick="saveWorkspace()">ファイルに保存</button>
+        <input type="file" id="loadFile" accept=".json" onchange="loadWorkspace(event)">
+      </div>
+      <div class="button-row">
+        <button onclick="makeCode()">MSX BASICコード生成</button>
+        <button onclick="copy2clipboard()">コピー</button>
+      </div>
+    </div>
+    <div class="textarea-group">
+      <!-- MSX BASICコード表示部 -->
+      <textarea cols="64" rows="6" id="msxCodeArea"></textarea>
+    </div>
+  </div>
+
+  <!-- ボタンイベントの処理 -->
+  <script src="msx-block-gen.js"></script>
+
+</body>
+</html>
