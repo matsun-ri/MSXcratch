@@ -1,0 +1,3280 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "msx_main",
+        "id": "gO8LG[c-^Qur.N@@u=rm",
+        "x": -305,
+        "y": 55,
+        "inputs": {
+          "statement_do": {
+            "block": {
+              "type": "msx_deftype",
+              "id": "lT6oFAov+J+x-,9rdxTd",
+              "fields": {
+                "str_deftype": "INT"
+              },
+              "next": {
+                "block": {
+                  "type": "msx_dim",
+                  "id": "*[W5{$[?d;fk|3ATL9$C",
+                  "inputs": {
+                    "str_var_array": {
+                      "shadow": {
+                        "type": "text_input",
+                        "id": "k;$8Y6C{:VlX*eTFcC(;",
+                        "fields": {
+                          "TEXT": "ex(10)"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_dim",
+                      "id": "yjZSl]ZTS_}Y`oGZD^8{",
+                      "inputs": {
+                        "str_var_array": {
+                          "shadow": {
+                            "type": "text_input",
+                            "id": ",!cR8uR5V#z!K.|;.B,-",
+                            "fields": {
+                              "TEXT": "ey(10)"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_dim",
+                          "id": "D5]#:Ts@i96?.mS(c/CK",
+                          "inputs": {
+                            "str_var_array": {
+                              "shadow": {
+                                "type": "text_input",
+                                "id": "PrfyO{)MKbQohzlv~|P9",
+                                "fields": {
+                                  "TEXT": "ez(10)"
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "msx_dim",
+                              "id": "rz3J:W|*=?OeQ9#6r9C+",
+                              "inputs": {
+                                "str_var_array": {
+                                  "shadow": {
+                                    "type": "text_input",
+                                    "id": "~~P3]=[efn3d0B}is8Ep",
+                                    "fields": {
+                                      "TEXT": "ev(10)"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "msx_randomize",
+                                  "id": "J%o=7,N#pY)#VQbm2[sl",
+                                  "next": {
+                                    "block": {
+                                      "type": "msx_rem",
+                                      "id": "VL@hHj1FT3@Ot!:4?aH?",
+                                      "inputs": {
+                                        "str_comment": {
+                                          "shadow": {
+                                            "type": "text_input",
+                                            "id": "[X}X8_FHP;;^oJSve5@7",
+                                            "fields": {
+                                              "TEXT": "敵の数"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "msx_let",
+                                          "id": "j`./-/$NuWo(VG%yz!zk",
+                                          "inputs": {
+                                            "str_let_arg0": {
+                                              "shadow": {
+                                                "type": "text_input",
+                                                "id": "`r;6NX_wB0%77.]},9XA",
+                                                "fields": {
+                                                  "TEXT": "em"
+                                                }
+                                              }
+                                            },
+                                            "str_let_arg1": {
+                                              "shadow": {
+                                                "type": "text_input",
+                                                "id": "d(`gY6M3%TF9pxR|Q.N+",
+                                                "fields": {
+                                                  "TEXT": "10"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "msx_let",
+                                              "id": "aL*#uZ/a5T{kPNqxh|3S",
+                                              "inputs": {
+                                                "str_let_arg0": {
+                                                  "shadow": {
+                                                    "type": "text_input",
+                                                    "id": "!Xx/b}p8W7-W2vTBU@q:",
+                                                    "fields": {
+                                                      "TEXT": "x"
+                                                    }
+                                                  }
+                                                },
+                                                "str_let_arg1": {
+                                                  "shadow": {
+                                                    "type": "text_input",
+                                                    "id": "#E^n8z6eVNXAUEwtUasM",
+                                                    "fields": {
+                                                      "TEXT": "118"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "msx_let",
+                                                  "id": "O@caVJQ5Q~N0Xe1Ce/+G",
+                                                  "inputs": {
+                                                    "str_let_arg0": {
+                                                      "shadow": {
+                                                        "type": "text_input",
+                                                        "id": "Ck9ipO_hCYXLq:X]*@R+",
+                                                        "fields": {
+                                                          "TEXT": "by"
+                                                        }
+                                                      }
+                                                    },
+                                                    "str_let_arg1": {
+                                                      "shadow": {
+                                                        "type": "text_input",
+                                                        "id": "mB`:]q.Y~F_N;KWC(9hQ",
+                                                        "fields": {
+                                                          "TEXT": "209"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "msx_call_subproc",
+                                                      "id": "BDAao[@E.YdOBWj!RD^D",
+                                                      "inputs": {
+                                                        "str_proc_name": {
+                                                          "shadow": {
+                                                            "type": "text_input",
+                                                            "id": "qbs`]H.ZX`9H{9Dphmtz",
+                                                            "fields": {
+                                                              "TEXT": "画面初期化"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "msx_call_subproc",
+                                                          "id": "5N_Tt#Xmq|Wf0Q285XoK",
+                                                          "inputs": {
+                                                            "str_proc_name": {
+                                                              "shadow": {
+                                                                "type": "text_input",
+                                                                "id": ")PR$dk9b;@t_foj5U,Fs",
+                                                                "fields": {
+                                                                  "TEXT": "全敵初期化"
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "next": {
+                                                            "block": {
+                                                              "type": "msx_while",
+                                                              "id": "cDLb?Po}p%}wO%Nen2^0",
+                                                              "inputs": {
+                                                                "num_condition": {
+                                                                  "shadow": {
+                                                                    "type": "text_input",
+                                                                    "id": ":);aXN%!GOQ:3+9j[`.!",
+                                                                    "fields": {
+                                                                      "TEXT": "d=0"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "statement_do": {
+                                                                  "block": {
+                                                                    "type": "msx_call_subproc",
+                                                                    "id": "IQ$*e=kU%su-eWL]B`tb",
+                                                                    "inputs": {
+                                                                      "str_proc_name": {
+                                                                        "shadow": {
+                                                                          "type": "text_input",
+                                                                          "id": "SrY^::`6NJU)N}}-=f%Q",
+                                                                          "fields": {
+                                                                            "TEXT": "自機移動"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "next": {
+                                                                      "block": {
+                                                                        "type": "msx_call_subproc",
+                                                                        "id": "~PBP-}VLLZ=:J-G4_Nm0",
+                                                                        "inputs": {
+                                                                          "str_proc_name": {
+                                                                            "shadow": {
+                                                                              "type": "text_input",
+                                                                              "id": "J`U]YERHKJi,b~JxQ%,r",
+                                                                              "fields": {
+                                                                                "TEXT": "弾発射・移動"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "next": {
+                                                                          "block": {
+                                                                            "type": "msx_call_subproc",
+                                                                            "id": "WvxP)8,,T2$*kWHw@BS(",
+                                                                            "inputs": {
+                                                                              "str_proc_name": {
+                                                                                "shadow": {
+                                                                                  "type": "text_input",
+                                                                                  "id": "N,KDVhPc[,V=Cm3}39:$",
+                                                                                  "fields": {
+                                                                                    "TEXT": "敵機移動"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "next": {
+                                                                              "block": {
+                                                                                "type": "msx_call_subproc",
+                                                                                "id": "{JG|1):;*yU!PKdaXYXI",
+                                                                                "inputs": {
+                                                                                  "str_proc_name": {
+                                                                                    "shadow": {
+                                                                                      "type": "text_input",
+                                                                                      "id": "XrXKf#^1Hm%hoYOF~hc0",
+                                                                                      "fields": {
+                                                                                        "TEXT": "自機当たり判定"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "next": {
+                                                                                  "block": {
+                                                                                    "type": "msx_if_then",
+                                                                                    "id": "~mm,3ul(gqA@?T2?j(Vx",
+                                                                                    "inputs": {
+                                                                                      "num_condition": {
+                                                                                        "shadow": {
+                                                                                          "type": "text_input",
+                                                                                          "id": "G@9+HN4|p9U6m--9}Odc",
+                                                                                          "fields": {
+                                                                                            "TEXT": "a=1"
+                                                                                          }
+                                                                                        },
+                                                                                        "block": {
+                                                                                          "type": "msx_equal",
+                                                                                          "id": "D5QU@_yOD3.mTEiTLB7/",
+                                                                                          "fields": {
+                                                                                            "str_mode": "="
+                                                                                          },
+                                                                                          "inputs": {
+                                                                                            "num_arg1": {
+                                                                                              "shadow": {
+                                                                                                "type": "number_input",
+                                                                                                "id": "tX`^!L~mWgTQIt5s*,Mv",
+                                                                                                "fields": {
+                                                                                                  "NUM": "1"
+                                                                                                }
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "msx_inkey",
+                                                                                                "id": "=p6KiE*-~+[(4G/p/BHC"
+                                                                                              }
+                                                                                            },
+                                                                                            "num_arg2": {
+                                                                                              "shadow": {
+                                                                                                "type": "number_input",
+                                                                                                "id": "_q+5NId[w*PQIhPHg0,q",
+                                                                                                "fields": {
+                                                                                                  "NUM": ""
+                                                                                                }
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "msx_chr",
+                                                                                                "id": "44,F3ETjHCJibAM3Tbml",
+                                                                                                "inputs": {
+                                                                                                  "num_arg": {
+                                                                                                    "shadow": {
+                                                                                                      "type": "number_input",
+                                                                                                      "id": "AZ1P%p`)u9+K2}SWu!6*",
+                                                                                                      "fields": {
+                                                                                                        "NUM": "27"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "statement_then": {
+                                                                                        "block": {
+                                                                                          "type": "msx_let",
+                                                                                          "id": "vv_P7@]fi?+F?]Vxrjk8",
+                                                                                          "inputs": {
+                                                                                            "str_let_arg0": {
+                                                                                              "shadow": {
+                                                                                                "type": "text_input",
+                                                                                                "id": "n#$1pTZSTxZ*/X*)]8Sf",
+                                                                                                "fields": {
+                                                                                                  "TEXT": "d"
+                                                                                                }
+                                                                                              }
+                                                                                            },
+                                                                                            "str_let_arg1": {
+                                                                                              "shadow": {
+                                                                                                "type": "text_input",
+                                                                                                "id": "^VkzNqqrDhUh?_qaFiH/",
+                                                                                                "fields": {
+                                                                                                  "TEXT": "1"
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "ScAy01yx.`=!=a~a9!:j",
+        "x": 465,
+        "y": 45,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "hp#S|w;*~HOGfkUD%XFF",
+              "fields": {
+                "TEXT": "画面初期化"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_color",
+              "id": "A^(Q}4_eGgtkaCky/FM9",
+              "inputs": {
+                "num_fore": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "aw+w/?B@U[=TF~7hOPfI",
+                    "fields": {
+                      "NUM": "15"
+                    }
+                  }
+                },
+                "num_back": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "{QJ~AM[;|Bw$X5hxmhJL",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "num_surr": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "{IQbn83H5u2gbChcoSBf",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_screen",
+                  "id": "cX6~I[xD_TSyc?WJw0-v",
+                  "inputs": {
+                    "num_screen_no": {
+                      "shadow": {
+                        "type": "number_input",
+                        "id": ":#mA$/Llo^k4H3XPxae4",
+                        "fields": {
+                          "NUM": "1"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_key_view",
+                      "id": "G[Sm,(5?;tTO@Fh~AaPo",
+                      "fields": {
+                        "str_key_view": "OFF"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_print",
+                          "id": "RT/:?!BWN_`l4Q-U6:;#",
+                          "inputs": {
+                            "str_text": {
+                              "shadow": {
+                                "type": "text_input",
+                                "id": "rtEzEEC^a{Z[GGbh$,!C",
+                                "fields": {
+                                  "TEXT": "\"SCORE 0\""
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "msx_sprite_size",
+                              "id": "9bS=CZ;!a==QD|de@=+3",
+                              "fields": {
+                                "num_sprite_size": "1"
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "msx_sprite_pattern_8x8",
+                                  "id": "oXgsCRKABC7ylp:oe%+l",
+                                  "fields": {
+                                    "arg00": false,
+                                    "arg10": false,
+                                    "arg20": false,
+                                    "arg30": true,
+                                    "arg40": false,
+                                    "arg50": false,
+                                    "arg60": false,
+                                    "arg70": false,
+                                    "arg01": false,
+                                    "arg11": false,
+                                    "arg21": false,
+                                    "arg31": true,
+                                    "arg41": false,
+                                    "arg51": false,
+                                    "arg61": false,
+                                    "arg71": false,
+                                    "arg02": true,
+                                    "arg12": false,
+                                    "arg22": false,
+                                    "arg32": true,
+                                    "arg42": false,
+                                    "arg52": false,
+                                    "arg62": true,
+                                    "arg72": false,
+                                    "arg03": true,
+                                    "arg13": false,
+                                    "arg23": true,
+                                    "arg33": true,
+                                    "arg43": true,
+                                    "arg53": false,
+                                    "arg63": true,
+                                    "arg73": false,
+                                    "arg04": true,
+                                    "arg14": false,
+                                    "arg24": true,
+                                    "arg34": true,
+                                    "arg44": true,
+                                    "arg54": false,
+                                    "arg64": true,
+                                    "arg74": false,
+                                    "arg05": true,
+                                    "arg15": true,
+                                    "arg25": true,
+                                    "arg35": true,
+                                    "arg45": true,
+                                    "arg55": true,
+                                    "arg65": true,
+                                    "arg75": false,
+                                    "arg06": true,
+                                    "arg16": true,
+                                    "arg26": true,
+                                    "arg36": true,
+                                    "arg46": true,
+                                    "arg56": true,
+                                    "arg66": true,
+                                    "arg76": false,
+                                    "arg07": true,
+                                    "arg17": false,
+                                    "arg27": false,
+                                    "arg37": false,
+                                    "arg47": false,
+                                    "arg57": false,
+                                    "arg67": true,
+                                    "arg77": false
+                                  },
+                                  "inputs": {
+                                    "num_pattern_no": {
+                                      "shadow": {
+                                        "type": "number_input",
+                                        "id": "CLDH=(FP4?]ASlA}Q`M9",
+                                        "fields": {
+                                          "NUM": "0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "msx_sprite_pattern_8x8",
+                                      "id": "7(2tK5YjTWVS9*^GZpT@",
+                                      "fields": {
+                                        "arg00": false,
+                                        "arg10": false,
+                                        "arg20": false,
+                                        "arg30": true,
+                                        "arg40": false,
+                                        "arg50": false,
+                                        "arg60": false,
+                                        "arg70": false,
+                                        "arg01": false,
+                                        "arg11": false,
+                                        "arg21": false,
+                                        "arg31": true,
+                                        "arg41": false,
+                                        "arg51": false,
+                                        "arg61": false,
+                                        "arg71": false,
+                                        "arg02": false,
+                                        "arg12": false,
+                                        "arg22": false,
+                                        "arg32": true,
+                                        "arg42": false,
+                                        "arg52": false,
+                                        "arg62": false,
+                                        "arg72": false,
+                                        "arg03": false,
+                                        "arg13": false,
+                                        "arg23": false,
+                                        "arg33": true,
+                                        "arg43": false,
+                                        "arg53": false,
+                                        "arg63": false,
+                                        "arg73": false,
+                                        "arg04": false,
+                                        "arg14": false,
+                                        "arg24": false,
+                                        "arg34": true,
+                                        "arg44": false,
+                                        "arg54": false,
+                                        "arg64": false,
+                                        "arg74": false,
+                                        "arg05": false,
+                                        "arg15": false,
+                                        "arg25": false,
+                                        "arg35": true,
+                                        "arg45": false,
+                                        "arg55": false,
+                                        "arg65": false,
+                                        "arg75": false,
+                                        "arg06": false,
+                                        "arg16": false,
+                                        "arg26": false,
+                                        "arg36": true,
+                                        "arg46": false,
+                                        "arg56": false,
+                                        "arg66": false,
+                                        "arg76": false,
+                                        "arg07": false,
+                                        "arg17": false,
+                                        "arg27": false,
+                                        "arg37": true,
+                                        "arg47": false,
+                                        "arg57": false,
+                                        "arg67": false,
+                                        "arg77": false
+                                      },
+                                      "inputs": {
+                                        "num_pattern_no": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "iiG-,1+)+}$)~+;s:d56",
+                                            "fields": {
+                                              "NUM": "1"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "msx_sprite_pattern_8x8",
+                                          "id": "c.mX9@*c1@TO8g@WZ*MO",
+                                          "fields": {
+                                            "arg00": false,
+                                            "arg10": false,
+                                            "arg20": true,
+                                            "arg30": false,
+                                            "arg40": false,
+                                            "arg50": false,
+                                            "arg60": true,
+                                            "arg70": true,
+                                            "arg01": false,
+                                            "arg11": true,
+                                            "arg21": true,
+                                            "arg31": true,
+                                            "arg41": true,
+                                            "arg51": true,
+                                            "arg61": false,
+                                            "arg71": false,
+                                            "arg02": true,
+                                            "arg12": false,
+                                            "arg22": true,
+                                            "arg32": true,
+                                            "arg42": true,
+                                            "arg52": false,
+                                            "arg62": true,
+                                            "arg72": false,
+                                            "arg03": true,
+                                            "arg13": true,
+                                            "arg23": false,
+                                            "arg33": true,
+                                            "arg43": false,
+                                            "arg53": true,
+                                            "arg63": true,
+                                            "arg73": false,
+                                            "arg04": true,
+                                            "arg14": true,
+                                            "arg24": true,
+                                            "arg34": true,
+                                            "arg44": true,
+                                            "arg54": true,
+                                            "arg64": true,
+                                            "arg74": false,
+                                            "arg05": false,
+                                            "arg15": true,
+                                            "arg25": true,
+                                            "arg35": true,
+                                            "arg45": true,
+                                            "arg55": true,
+                                            "arg65": true,
+                                            "arg75": false,
+                                            "arg06": false,
+                                            "arg16": false,
+                                            "arg26": false,
+                                            "arg36": true,
+                                            "arg46": true,
+                                            "arg56": true,
+                                            "arg66": true,
+                                            "arg76": false,
+                                            "arg07": false,
+                                            "arg17": false,
+                                            "arg27": false,
+                                            "arg37": false,
+                                            "arg47": false,
+                                            "arg57": true,
+                                            "arg67": true,
+                                            "arg77": true
+                                          },
+                                          "inputs": {
+                                            "num_pattern_no": {
+                                              "shadow": {
+                                                "type": "number_input",
+                                                "id": "D$StXIE`v@I39RZFoKH#",
+                                                "fields": {
+                                                  "NUM": "2"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "_A=Yfn-X$/B@SAQ5:GK~",
+        "x": 1009,
+        "y": 29,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "$M`wQ0pSBJqriF8I|/_F",
+              "fields": {
+                "TEXT": "全敵初期化"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_for",
+              "id": "wI,Vm,qqEZC9/$o?|QH|",
+              "inputs": {
+                "str_varable": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "8|0^D8d7JPeWINO6mX8R",
+                    "fields": {
+                      "TEXT": "en"
+                    }
+                  }
+                },
+                "num_start": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "i`X=tF|JOCg5PjhcgZsn",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "num_dest": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "WKT8d:0g%]r@c},GGzoy",
+                    "fields": {
+                      "NUM": "em"
+                    }
+                  }
+                },
+                "num_step": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "%/*]dQ;#E]k}qXLUgt0v",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "statement_do": {
+                  "block": {
+                    "type": "msx_call_subproc",
+                    "id": "y2PYA!e!9tz=KqfVbo]b",
+                    "inputs": {
+                      "str_proc_name": {
+                        "shadow": {
+                          "type": "text_input",
+                          "id": "mQ?+!ui%5S%TYUnSsh6-",
+                          "fields": {
+                            "TEXT": "敵初期化"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "GFt+TLwT3z6,?M%P}g/T",
+        "x": 1676,
+        "y": 27,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "#Xa2q[)yI#m/lS=t][cd",
+              "fields": {
+                "TEXT": "敵機移動"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_for",
+              "id": "wsIn4*M7h;*E=)vX!h+W",
+              "inputs": {
+                "str_varable": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "BZ_H9]yi:HCFvGUCEfzO",
+                    "fields": {
+                      "TEXT": "en"
+                    }
+                  }
+                },
+                "num_start": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "dzv@H?a-KBw{%vCprd|j",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "num_dest": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "qovdMol#6{.+}q#}w_Vi",
+                    "fields": {
+                      "NUM": "em"
+                    }
+                  }
+                },
+                "num_step": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "7/lFoEGSK?$*m9#W}ekD",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "statement_do": {
+                  "block": {
+                    "type": "msx_let",
+                    "id": "T6Xge5Z|E(2:K$i:zp},",
+                    "inputs": {
+                      "str_let_arg0": {
+                        "shadow": {
+                          "type": "text_input",
+                          "id": "xu[K}a-Y*RTllI%^Z(}z",
+                          "fields": {
+                            "TEXT": "ey(en)"
+                          }
+                        }
+                      },
+                      "str_let_arg1": {
+                        "shadow": {
+                          "type": "text_input",
+                          "id": "Ilojnj`F1T#.QZ:P4N.9",
+                          "fields": {
+                            "TEXT": "1"
+                          }
+                        },
+                        "block": {
+                          "type": "msx_add",
+                          "id": "qbY4vO=FBCasT!9)u}0]",
+                          "inputs": {
+                            "num_arg1": {
+                              "shadow": {
+                                "type": "number_input",
+                                "id": "IVE9Wsj4#XuS~;I4|]uK",
+                                "fields": {
+                                  "NUM": "ey(en)"
+                                }
+                              }
+                            },
+                            "num_arg2": {
+                              "shadow": {
+                                "type": "number_input",
+                                "id": "ax|Ia^Gl1s^;a+7`PtAJ",
+                                "fields": {
+                                  "NUM": "ev(en)"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "msx_if_then",
+                        "id": "7cMhql=sC6U#EL[MaWv1",
+                        "inputs": {
+                          "num_condition": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "4ks5D7jQ[8)P;;rfa`g1",
+                              "fields": {
+                                "TEXT": "a=1"
+                              }
+                            },
+                            "block": {
+                              "type": "msx_greater_than",
+                              "id": "!d*t+-`R;0:.{tkG0jjo",
+                              "fields": {
+                                "str_mode": ">"
+                              },
+                              "inputs": {
+                                "num_arg1": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "~f@c$6D++_X[f3Ae-,vO",
+                                    "fields": {
+                                      "NUM": "ey(en)"
+                                    }
+                                  }
+                                },
+                                "num_arg2": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "0eJ3-[T2cg36djsf7%2k",
+                                    "fields": {
+                                      "NUM": "191"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "statement_then": {
+                            "block": {
+                              "type": "msx_call_subproc",
+                              "id": "`zvL}[#N5^rFW(S#=6+u",
+                              "inputs": {
+                                "str_proc_name": {
+                                  "shadow": {
+                                    "type": "text_input",
+                                    "id": "=}#5)h3C.|(gdAuA_4Ni",
+                                    "fields": {
+                                      "TEXT": "敵初期化"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "msx_let",
+                            "id": "Y?]G2N3;cMzyN]Q8,.po",
+                            "inputs": {
+                              "str_let_arg0": {
+                                "shadow": {
+                                  "type": "text_input",
+                                  "id": "ZU!nY`c[e,VM~j=SY10e",
+                                  "fields": {
+                                    "TEXT": "ez(en)"
+                                  }
+                                }
+                              },
+                              "str_let_arg1": {
+                                "shadow": {
+                                  "type": "text_input",
+                                  "id": "qk)L69KP`3]=gC9:@DC=",
+                                  "fields": {
+                                    "TEXT": ""
+                                  }
+                                },
+                                "block": {
+                                  "type": "msx_add",
+                                  "id": "u,/*0mco]%zy$L]]*GT3",
+                                  "inputs": {
+                                    "num_arg1": {
+                                      "shadow": {
+                                        "type": "number_input",
+                                        "id": ":+N1LkzaZ)cb|PegnWn|",
+                                        "fields": {
+                                          "NUM": "ex(en)"
+                                        }
+                                      }
+                                    },
+                                    "num_arg2": {
+                                      "shadow": {
+                                        "type": "number_input",
+                                        "id": "lUqX9O#rWP,d-|)OLK+q",
+                                        "fields": {
+                                          "NUM": "2"
+                                        }
+                                      },
+                                      "block": {
+                                        "type": "msx_mul",
+                                        "id": "/Bek7_h4?n:{ws|*rFA9",
+                                        "inputs": {
+                                          "num_arg1": {
+                                            "shadow": {
+                                              "type": "number_input",
+                                              "id": "jxv8)L_Z*D]0RwZtQcEP",
+                                              "fields": {
+                                                "NUM": "18"
+                                              }
+                                            }
+                                          },
+                                          "num_arg2": {
+                                            "shadow": {
+                                              "type": "number_input",
+                                              "id": "M8zbGnvz!PD5E*C*(GKg",
+                                              "fields": {
+                                                "NUM": "4"
+                                              }
+                                            },
+                                            "block": {
+                                              "type": "msx_math",
+                                              "id": "K,XJ-|r:AVq[vb+j6)ch",
+                                              "fields": {
+                                                "str_math": "SIN"
+                                              },
+                                              "inputs": {
+                                                "num_arg": {
+                                                  "shadow": {
+                                                    "type": "number_input",
+                                                    "id": "4;I{@w@=^U:qMIPJYc0D",
+                                                    "fields": {
+                                                      "NUM": "1"
+                                                    }
+                                                  },
+                                                  "block": {
+                                                    "type": "msx_div",
+                                                    "id": "KK-7DS41sJV:eLlUd$av",
+                                                    "inputs": {
+                                                      "num_arg1": {
+                                                        "shadow": {
+                                                          "type": "number_input",
+                                                          "id": "-9JN`{qUcxla;%iF=4~3",
+                                                          "fields": {
+                                                            "NUM": ""
+                                                          }
+                                                        },
+                                                        "block": {
+                                                          "type": "msx_mul",
+                                                          "id": "?i|_=-yO:!J4^rE_=v_u",
+                                                          "inputs": {
+                                                            "num_arg1": {
+                                                              "shadow": {
+                                                                "type": "number_input",
+                                                                "id": "gGyVE;U6l9-/zN+d,rR@",
+                                                                "fields": {
+                                                                  "NUM": "3"
+                                                                }
+                                                              },
+                                                              "block": {
+                                                                "type": "msx_mul",
+                                                                "id": "CtvdPPI3WFFFh(]M~cZk",
+                                                                "inputs": {
+                                                                  "num_arg1": {
+                                                                    "shadow": {
+                                                                      "type": "number_input",
+                                                                      "id": "s)~{:]O5nBZ~}?ou{Gkb",
+                                                                      "fields": {
+                                                                        "NUM": "3.14"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "num_arg2": {
+                                                                    "shadow": {
+                                                                      "type": "number_input",
+                                                                      "id": "SllealAp)(v5EdHHTRt6",
+                                                                      "fields": {
+                                                                        "NUM": "2"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "num_arg2": {
+                                                              "shadow": {
+                                                                "type": "number_input",
+                                                                "id": "+[1l$hkhNpmLHcKZn6hT",
+                                                                "fields": {
+                                                                  "NUM": "ey(en)"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "num_arg2": {
+                                                        "shadow": {
+                                                          "type": "number_input",
+                                                          "id": ".{(J1_)rz?%glKE-*z*A",
+                                                          "fields": {
+                                                            "NUM": "64"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "msx_put_sprite",
+                                "id": "+nNOlzuL^;Z}62^tSXhe",
+                                "inputs": {
+                                  "num_priority": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "TeciXx8D6;W(O9Sla:Nf",
+                                      "fields": {
+                                        "NUM": "en"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_add",
+                                      "id": "=x?w_!CoT|y`dOChuFI.",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "5iQLA1~RB~f[W%.DtkL9",
+                                            "fields": {
+                                              "NUM": "en"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "b;?=I7N3jk;;gZCOXT42",
+                                            "fields": {
+                                              "NUM": "1"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "num_x": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "DTJJ2R@=Dw1Z/-d}K|:=",
+                                      "fields": {
+                                        "NUM": "ez(en)"
+                                      }
+                                    }
+                                  },
+                                  "num_y": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "/ZjoiKVS^6p-ADuLJG[H",
+                                      "fields": {
+                                        "NUM": "ey(en)"
+                                      }
+                                    }
+                                  },
+                                  "num_color": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "GOQjLu!l?J,6Tm4nS;3Q",
+                                      "fields": {
+                                        "NUM": "15"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_add",
+                                      "id": "408,1Uq.R`;T9[zwc4Y`",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "Lb8IJ@8Z*#8/cJ;s/s#}",
+                                            "fields": {
+                                              "NUM": "en"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "VN1Di1(xw(!Gzi7m}M8^",
+                                            "fields": {
+                                              "NUM": "1"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "num_pattern": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "+X6lm+swS%CqXqT8Ceye",
+                                      "fields": {
+                                        "NUM": "2"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "!:%=ntCf21W#p*Dq#L{_",
+        "x": 1010,
+        "y": 299,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "]g?X+UwV(q5^nsB?O.:k",
+              "fields": {
+                "TEXT": "敵初期化"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_let",
+              "id": "HrL.p=M.Mf2c{fE#7Qz/",
+              "inputs": {
+                "str_let_arg0": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "`MrIN~zvV[NcmW`k[[m]",
+                    "fields": {
+                      "TEXT": "ex(en)"
+                    }
+                  }
+                },
+                "str_let_arg1": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "~{SQ2MiCVxViZ@rZs`@*",
+                    "fields": {
+                      "TEXT": "1"
+                    }
+                  },
+                  "block": {
+                    "type": "msx_random",
+                    "id": "HE}2m$-sB{X6_$p9DTgR",
+                    "inputs": {
+                      "num_min": {
+                        "shadow": {
+                          "type": "number_input",
+                          "id": "ssc~0=O0JHx)~1i`MhH`",
+                          "fields": {
+                            "NUM": "0"
+                          }
+                        }
+                      },
+                      "num_max": {
+                        "shadow": {
+                          "type": "number_input",
+                          "id": "E!e#h8Ky5*#L0to^gqnh",
+                          "fields": {
+                            "NUM": "240"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_let",
+                  "id": "C}{Tg6nWT`V6QC]Q;,*z",
+                  "inputs": {
+                    "str_let_arg0": {
+                      "shadow": {
+                        "type": "text_input",
+                        "id": "wAM3c!y9RB,`c)U{Mebj",
+                        "fields": {
+                          "TEXT": "ey(en)"
+                        }
+                      }
+                    },
+                    "str_let_arg1": {
+                      "shadow": {
+                        "type": "text_input",
+                        "id": "QgsB1j2OLapxP]NcW@y[",
+                        "fields": {
+                          "TEXT": "0"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_let",
+                      "id": "=])EQ$(:330#+!C=mFNQ",
+                      "inputs": {
+                        "str_let_arg0": {
+                          "shadow": {
+                            "type": "text_input",
+                            "id": "I5b@hNa,J%^^ZY*$BrAz",
+                            "fields": {
+                              "TEXT": "ev(en)"
+                            }
+                          }
+                        },
+                        "str_let_arg1": {
+                          "shadow": {
+                            "type": "text_input",
+                            "id": "gh(y{qPa7U@=Jk4SCQ**",
+                            "fields": {
+                              "TEXT": "1"
+                            }
+                          },
+                          "block": {
+                            "type": "msx_random",
+                            "id": "iY6I3t^z])b3BOtja)4:",
+                            "inputs": {
+                              "num_min": {
+                                "shadow": {
+                                  "type": "number_input",
+                                  "id": "~Ppe/]LO/X-OvuyV?.iN",
+                                  "fields": {
+                                    "NUM": "1"
+                                  }
+                                }
+                              },
+                              "num_max": {
+                                "shadow": {
+                                  "type": "number_input",
+                                  "id": "#iU^7(lG3.,DNxs|PPnq",
+                                  "fields": {
+                                    "NUM": "4"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "AD@y+Pk3g@i}(Z{?/($9",
+        "x": 1008,
+        "y": 594,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "s=cLg?-v$d2P*x.SJRce",
+              "fields": {
+                "TEXT": "自機移動"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_let",
+              "id": "ES`w.P[l5xdkgcg4:|53",
+              "inputs": {
+                "str_let_arg0": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "tlsxaAa$5JFWb|5VS5vn",
+                    "fields": {
+                      "TEXT": "a"
+                    }
+                  }
+                },
+                "str_let_arg1": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "fQ@V_pYg~?e*N2DFTRjG",
+                    "fields": {
+                      "TEXT": "1"
+                    }
+                  },
+                  "block": {
+                    "type": "msx_stick",
+                    "id": "7aGRyrxZIXx=u4z{WYrf",
+                    "inputs": {
+                      "num_stick": {
+                        "shadow": {
+                          "type": "number_input",
+                          "id": "rV)E[kNUqDEvNOIS]/{{",
+                          "fields": {
+                            "NUM": "0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_if_else",
+                  "id": "qu:h3f9},~#q$zd:okUa",
+                  "inputs": {
+                    "num_condition": {
+                      "shadow": {
+                        "type": "text_input",
+                        "id": "9:z3*hvl#C,vfMC{1E}q",
+                        "fields": {
+                          "TEXT": "a=1"
+                        }
+                      },
+                      "block": {
+                        "type": "msx_equal",
+                        "id": "w}[u[daZuxShpt=D1O-B",
+                        "fields": {
+                          "str_mode": "="
+                        },
+                        "inputs": {
+                          "num_arg1": {
+                            "shadow": {
+                              "type": "number_input",
+                              "id": "`O(q{W)^WuUdNeWnAxoB",
+                              "fields": {
+                                "NUM": "a"
+                              }
+                            }
+                          },
+                          "num_arg2": {
+                            "shadow": {
+                              "type": "number_input",
+                              "id": ";t3d$[HZg(wO~,]{i?9p",
+                              "fields": {
+                                "NUM": "7"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "statement_then": {
+                      "block": {
+                        "type": "msx_let",
+                        "id": "00obP[=u@rqsS3{s$M21",
+                        "inputs": {
+                          "str_let_arg0": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "C5g5dghrrQDuvBIXc=wY",
+                              "fields": {
+                                "TEXT": "x"
+                              }
+                            }
+                          },
+                          "str_let_arg1": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "rZjHEXiB91A*#x8k}[kD",
+                              "fields": {
+                                "TEXT": "118"
+                              }
+                            },
+                            "block": {
+                              "type": "msx_sub",
+                              "id": "MEfcxt[I+*bnNcmpK4kC",
+                              "inputs": {
+                                "num_arg1": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "}~0gO%/|?6ON]6Ubs:7i",
+                                    "fields": {
+                                      "NUM": "x"
+                                    }
+                                  }
+                                },
+                                "num_arg2": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "`{6jH,baL$Ay0C3S5ZQd",
+                                    "fields": {
+                                      "NUM": "4"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "msx_if_then",
+                            "id": "}.ot0KG?^!K;@n70?py1",
+                            "inputs": {
+                              "num_condition": {
+                                "shadow": {
+                                  "type": "text_input",
+                                  "id": "#[4U:RW4gYuPs+_6+$h$",
+                                  "fields": {
+                                    "TEXT": "a=1"
+                                  }
+                                },
+                                "block": {
+                                  "type": "msx_less_than",
+                                  "id": "j$QjA*#^[XpwJDAb=M4R",
+                                  "fields": {
+                                    "str_mode": "<"
+                                  },
+                                  "inputs": {
+                                    "num_arg1": {
+                                      "shadow": {
+                                        "type": "number_input",
+                                        "id": "IYA0:@^NAFI]blcndle6",
+                                        "fields": {
+                                          "NUM": "x"
+                                        }
+                                      }
+                                    },
+                                    "num_arg2": {
+                                      "shadow": {
+                                        "type": "number_input",
+                                        "id": "L!mTt2ebZ%f)A|(JS]C9",
+                                        "fields": {
+                                          "NUM": "0"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "statement_then": {
+                                "block": {
+                                  "type": "msx_let",
+                                  "id": "kpJ8V9bNNHD|d4qqoe4U",
+                                  "inputs": {
+                                    "str_let_arg0": {
+                                      "shadow": {
+                                        "type": "text_input",
+                                        "id": "{Hj;lPn:@Q2/dweFT)Gn",
+                                        "fields": {
+                                          "TEXT": "x"
+                                        }
+                                      }
+                                    },
+                                    "str_let_arg1": {
+                                      "shadow": {
+                                        "type": "text_input",
+                                        "id": "8g]c4#:BF]zlvAcHnBo$",
+                                        "fields": {
+                                          "TEXT": "0"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "statement_else": {
+                      "block": {
+                        "type": "msx_if_then",
+                        "id": "+[TP1Z(Gd_%B?s[a!4.0",
+                        "inputs": {
+                          "num_condition": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "gkJ=$D^aaEWuSkozJ^k^",
+                              "fields": {
+                                "TEXT": "a=1"
+                              }
+                            },
+                            "block": {
+                              "type": "msx_equal",
+                              "id": "m.pv0rg2KLv9@;ECTYq)",
+                              "fields": {
+                                "str_mode": "="
+                              },
+                              "inputs": {
+                                "num_arg1": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "9|fZwrBs1k`:2Ixe`e?G",
+                                    "fields": {
+                                      "NUM": "a"
+                                    }
+                                  }
+                                },
+                                "num_arg2": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "ak)X*TCkmnKR5cjT;n,{",
+                                    "fields": {
+                                      "NUM": "3"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "statement_then": {
+                            "block": {
+                              "type": "msx_let",
+                              "id": "}F:Uw?%;dB5AaguFLbPe",
+                              "inputs": {
+                                "str_let_arg0": {
+                                  "shadow": {
+                                    "type": "text_input",
+                                    "id": "2d0U`1_b0fjz!y;-8t]q",
+                                    "fields": {
+                                      "TEXT": "x"
+                                    }
+                                  }
+                                },
+                                "str_let_arg1": {
+                                  "shadow": {
+                                    "type": "text_input",
+                                    "id": "rZjHEXiB91A*#x8k}[kD",
+                                    "fields": {
+                                      "TEXT": "118"
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "msx_add",
+                                    "id": "9O4O4fYg|gs`Z_m1`NyD",
+                                    "inputs": {
+                                      "num_arg1": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "+0my?1Wd=3;}K^#)YUgn",
+                                          "fields": {
+                                            "NUM": "x"
+                                          }
+                                        }
+                                      },
+                                      "num_arg2": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "`8R6.E4~Jq1PC;{-#pKp",
+                                          "fields": {
+                                            "NUM": "4"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "msx_if_then",
+                                  "id": "*^:nigviq)S5;eVtK?Q%",
+                                  "inputs": {
+                                    "num_condition": {
+                                      "shadow": {
+                                        "type": "text_input",
+                                        "id": "#[4U:RW4gYuPs+_6+$h$",
+                                        "fields": {
+                                          "TEXT": "a=1"
+                                        }
+                                      },
+                                      "block": {
+                                        "type": "msx_greater_than",
+                                        "id": "cSmD2@Yg,.M`S-%LxT=U",
+                                        "fields": {
+                                          "str_mode": ">"
+                                        },
+                                        "inputs": {
+                                          "num_arg1": {
+                                            "shadow": {
+                                              "type": "number_input",
+                                              "id": "2lk5eD^c-QIkRu3rQ%h;",
+                                              "fields": {
+                                                "NUM": "x"
+                                              }
+                                            }
+                                          },
+                                          "num_arg2": {
+                                            "shadow": {
+                                              "type": "number_input",
+                                              "id": "tuw5@x42`B4%(}dtj~(G",
+                                              "fields": {
+                                                "NUM": "240"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "statement_then": {
+                                      "block": {
+                                        "type": "msx_let",
+                                        "id": "im:QI?`^=4CR-d$i+r.^",
+                                        "inputs": {
+                                          "str_let_arg0": {
+                                            "shadow": {
+                                              "type": "text_input",
+                                              "id": "L3.`_lmYX;q=3:[W6$tV",
+                                              "fields": {
+                                                "TEXT": "x"
+                                              }
+                                            }
+                                          },
+                                          "str_let_arg1": {
+                                            "shadow": {
+                                              "type": "text_input",
+                                              "id": "+*w-dc*T;$Hzc%Zn}KO!",
+                                              "fields": {
+                                                "TEXT": "240"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_put_sprite",
+                      "id": "}u7s}C^_Hn4?uYxWHE5D",
+                      "inputs": {
+                        "num_priority": {
+                          "shadow": {
+                            "type": "number_input",
+                            "id": "VsePs9g9!vx-W9%Iz$U@",
+                            "fields": {
+                              "NUM": "0"
+                            }
+                          }
+                        },
+                        "num_x": {
+                          "shadow": {
+                            "type": "number_input",
+                            "id": "Gc`D:7aX?gDb;px$!t}R",
+                            "fields": {
+                              "NUM": "x"
+                            }
+                          }
+                        },
+                        "num_y": {
+                          "shadow": {
+                            "type": "number_input",
+                            "id": "C,vx[lD:3(jdQjihV-cg",
+                            "fields": {
+                              "NUM": "170"
+                            }
+                          }
+                        },
+                        "num_color": {
+                          "shadow": {
+                            "type": "number_input",
+                            "id": "i?$c`:(1TQiAZasDgb!B",
+                            "fields": {
+                              "NUM": "15"
+                            }
+                          }
+                        },
+                        "num_pattern": {
+                          "shadow": {
+                            "type": "number_input",
+                            "id": ";r$5wWXXp^2EKdKPye)8",
+                            "fields": {
+                              "NUM": "0"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "4)hgcVQ]g,$D,/na0Zx`",
+        "x": 1673,
+        "y": 555,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "@quUTQvW9sghB`w`^i$c",
+              "fields": {
+                "TEXT": "自機当たり判定"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_for",
+              "id": "}EjSUqB7[x7=y)bzvr@_",
+              "inputs": {
+                "str_varable": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "~{JgAB6x)UKfG|SuO:*J",
+                    "fields": {
+                      "TEXT": "en"
+                    }
+                  }
+                },
+                "num_start": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "J5[xfDahx)932_KH?N6R",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "num_dest": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "pe%pbG|QO}X8BAhV/NSH",
+                    "fields": {
+                      "NUM": "em"
+                    }
+                  }
+                },
+                "num_step": {
+                  "shadow": {
+                    "type": "number_input",
+                    "id": "/roagaJ.y$a2)ZP^zdf^",
+                    "fields": {
+                      "NUM": "1"
+                    }
+                  }
+                },
+                "statement_do": {
+                  "block": {
+                    "type": "msx_if_then",
+                    "id": "~z0?$@n;RqpJCbysyI5A",
+                    "inputs": {
+                      "num_condition": {
+                        "shadow": {
+                          "type": "text_input",
+                          "id": "Z^k9vYFrry4PrGS:w)ut",
+                          "fields": {
+                            "TEXT": "a=1"
+                          }
+                        },
+                        "block": {
+                          "type": "msx_and",
+                          "id": "=Ew{,@rmyUOvEEh2!TN0",
+                          "inputs": {
+                            "num_arg1": {
+                              "shadow": {
+                                "type": "number_input",
+                                "id": "^C.*QL{5fjN$}g{*8@6x",
+                                "fields": {
+                                  "NUM": "a"
+                                }
+                              },
+                              "block": {
+                                "type": "msx_less_than",
+                                "id": "+S$1C5PQk]{F4m|bsvF_",
+                                "fields": {
+                                  "str_mode": "<"
+                                },
+                                "inputs": {
+                                  "num_arg1": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "kEf%B;jl*OXzMgYu%J0K",
+                                      "fields": {
+                                        "NUM": "ez(en)"
+                                      }
+                                    }
+                                  },
+                                  "num_arg2": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": ".Vq!iT$k}/nfoL*kbZ_d",
+                                      "fields": {
+                                        "NUM": ""
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_add",
+                                      "id": "f@H:a8Mu{P*ye?P#}dZx",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "^zBxIN-tDT{~@:A0!%AX",
+                                            "fields": {
+                                              "NUM": "x"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "M{,[QWfnZ1~Qki(_=DCv",
+                                            "fields": {
+                                              "NUM": "6"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "num_arg2": {
+                              "shadow": {
+                                "type": "number_input",
+                                "id": "Kd*#Y=KOIS6?3csHP4W$",
+                                "fields": {
+                                  "NUM": "b"
+                                }
+                              },
+                              "block": {
+                                "type": "msx_less_than",
+                                "id": "$fC)$n_mDUQq0Mx~g$c2",
+                                "fields": {
+                                  "str_mode": "<"
+                                },
+                                "inputs": {
+                                  "num_arg1": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "x!Fb}$u%.5Hewoi9~ZsF",
+                                      "fields": {
+                                        "NUM": "1"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_add",
+                                      "id": "FJe8/KSvy|vKm6)_LcS_",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "p-g)Q#sT8DE|wr79XyTP",
+                                            "fields": {
+                                              "NUM": "x"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "%3+QGEmzT0^m@DyYc?+k",
+                                            "fields": {
+                                              "NUM": "6"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "num_arg2": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "`w[V%P+0QH)E.+M_):DA",
+                                      "fields": {
+                                        "NUM": "2"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_add",
+                                      "id": "=].Ke:Ou;sYvz{OFS2o/",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "86!R?Za)(x+-%t,^O+H7",
+                                            "fields": {
+                                              "NUM": "ez(en)"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "!8]%NhPGfk,/$bt.pBDD",
+                                            "fields": {
+                                              "NUM": "15"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "statement_then": {
+                        "block": {
+                          "type": "msx_if_then",
+                          "id": ".7yNue]:d@2svIn5;S8V",
+                          "inputs": {
+                            "num_condition": {
+                              "shadow": {
+                                "type": "text_input",
+                                "id": "Z^k9vYFrry4PrGS:w)ut",
+                                "fields": {
+                                  "TEXT": "a=1"
+                                }
+                              },
+                              "block": {
+                                "type": "msx_and",
+                                "id": "G;`}XFocEXtfBk#(E0#Z",
+                                "inputs": {
+                                  "num_arg1": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "^C.*QL{5fjN$}g{*8@6x",
+                                      "fields": {
+                                        "NUM": "a"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_less_than",
+                                      "id": "SKmW`:9FI-~1mUtU8eDZ",
+                                      "fields": {
+                                        "str_mode": "<"
+                                      },
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "Y/orKnK}D|glaH/N;uIp",
+                                            "fields": {
+                                              "NUM": "ey(en)"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": ".Vq!iT$k}/nfoL*kbZ_d",
+                                            "fields": {
+                                              "NUM": ""
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "msx_add",
+                                            "id": "lqI]Q859UFa|es|eumZ`",
+                                            "inputs": {
+                                              "num_arg1": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "XQ$gb8w:c%mpZR|}gZWb",
+                                                  "fields": {
+                                                    "NUM": "170"
+                                                  }
+                                                }
+                                              },
+                                              "num_arg2": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "4JgmJkYVZ.SYiwR`0z/I",
+                                                  "fields": {
+                                                    "NUM": "4"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "num_arg2": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "Kd*#Y=KOIS6?3csHP4W$",
+                                      "fields": {
+                                        "NUM": "b"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_less_than",
+                                      "id": "*S._m.0^.9DvYsQINUB0",
+                                      "fields": {
+                                        "str_mode": "<"
+                                      },
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "x!Fb}$u%.5Hewoi9~ZsF",
+                                            "fields": {
+                                              "NUM": "1"
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "msx_add",
+                                            "id": "n6xO}-AO!B,`8LW0|cr^",
+                                            "inputs": {
+                                              "num_arg1": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "F#t}]pjKf{#vl,%g#*MQ",
+                                                  "fields": {
+                                                    "NUM": "170"
+                                                  }
+                                                }
+                                              },
+                                              "num_arg2": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "](rB|5=}yv6Fhc6)?gj8",
+                                                  "fields": {
+                                                    "NUM": "4"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "`w[V%P+0QH)E.+M_):DA",
+                                            "fields": {
+                                              "NUM": "2"
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "msx_add",
+                                            "id": "oEAm`?w2$dJ$r:*wx-qn",
+                                            "inputs": {
+                                              "num_arg1": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "eKVd--l/YnkyLrTuI;~q",
+                                                  "fields": {
+                                                    "NUM": "ey(en)"
+                                                  }
+                                                }
+                                              },
+                                              "num_arg2": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "J%u$kW`-@uZne!WVP0zG",
+                                                  "fields": {
+                                                    "NUM": "15"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "statement_then": {
+                              "block": {
+                                "type": "msx_let",
+                                "id": "[Y9kdSsULMk%gI_iOIjg",
+                                "inputs": {
+                                  "str_let_arg0": {
+                                    "shadow": {
+                                      "type": "text_input",
+                                      "id": "lU|3Uv;D6+JAw!^327Dk",
+                                      "fields": {
+                                        "TEXT": "d"
+                                      }
+                                    }
+                                  },
+                                  "str_let_arg1": {
+                                    "shadow": {
+                                      "type": "text_input",
+                                      "id": "C{URpVRZr.z/7,!O6}/2",
+                                      "fields": {
+                                        "TEXT": "1"
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "msx_put_sprite",
+                                    "id": "2W=TA_i|ibWgcKFa#6G7",
+                                    "inputs": {
+                                      "num_priority": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "%rtHBO7oU.5G[@lasofo",
+                                          "fields": {
+                                            "NUM": "0"
+                                          }
+                                        }
+                                      },
+                                      "num_x": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "z/bT^e/F:CF`-Fv:f*=Z",
+                                          "fields": {
+                                            "NUM": "x"
+                                          }
+                                        }
+                                      },
+                                      "num_y": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "gajL!N[O)B#Obe4]B23k",
+                                          "fields": {
+                                            "NUM": "170"
+                                          }
+                                        }
+                                      },
+                                      "num_color": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "wuo@N{$:[Hm5sci;|NRM",
+                                          "fields": {
+                                            "NUM": "8"
+                                          }
+                                        }
+                                      },
+                                      "num_pattern": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "4k:E#MRf;ot82W^vc7cm",
+                                          "fields": {
+                                            "NUM": "0"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "msx_subprocedure",
+        "id": "GoGU*o@G=6HB!|L!P,GN",
+        "x": 2630,
+        "y": 9,
+        "inputs": {
+          "str_proc_name": {
+            "shadow": {
+              "type": "text_input",
+              "id": "TAtP_.-+9#uCXALPo7TE",
+              "fields": {
+                "TEXT": "弾発射・移動"
+              }
+            }
+          },
+          "statement_sub": {
+            "block": {
+              "type": "msx_rem",
+              "id": "5-FLU$_$1EcJ|!F2qpRz",
+              "inputs": {
+                "str_comment": {
+                  "shadow": {
+                    "type": "text_input",
+                    "id": "Y8[weFQF922NZGZ%|*F.",
+                    "fields": {
+                      "TEXT": "発射"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "msx_if_then",
+                  "id": "x{I{)n^,h1nHa,#=l2#3",
+                  "inputs": {
+                    "num_condition": {
+                      "shadow": {
+                        "type": "text_input",
+                        "id": "|ELc:xLA@5)G(?`L==HY",
+                        "fields": {
+                          "TEXT": "a=1"
+                        }
+                      },
+                      "block": {
+                        "type": "msx_and",
+                        "id": "o-5}/^$8:kB8(rNZ/}qQ",
+                        "inputs": {
+                          "num_arg1": {
+                            "shadow": {
+                              "type": "number_input",
+                              "id": "Ux5-Ub~k`+H-sVI@~BDG",
+                              "fields": {
+                                "NUM": "a"
+                              }
+                            },
+                            "block": {
+                              "type": "msx_equal",
+                              "id": "z.xmj5*^9)eC_gNOg8?r",
+                              "fields": {
+                                "str_mode": "="
+                              },
+                              "inputs": {
+                                "num_arg1": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "|[:pX8VxH[WJH1{qh0CN",
+                                    "fields": {
+                                      "NUM": "by"
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "msx_strig",
+                                    "id": "n5G58zj-.r1KgW1``DOv",
+                                    "inputs": {
+                                      "num_strig": {
+                                        "shadow": {
+                                          "type": "number_input",
+                                          "id": "s[j.~C_{+|m_+lgWV*X}",
+                                          "fields": {
+                                            "NUM": "0"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "num_arg2": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "L*;=cn5NUCa.k;b|@7P8",
+                                    "fields": {
+                                      "NUM": "-1"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "num_arg2": {
+                            "shadow": {
+                              "type": "number_input",
+                              "id": "l)3kFX(7~2Bf(.%,bZH;",
+                              "fields": {
+                                "NUM": "b"
+                              }
+                            },
+                            "block": {
+                              "type": "msx_equal",
+                              "id": "XZ]z3kSadxTb4rvR{^1y",
+                              "fields": {
+                                "str_mode": "="
+                              },
+                              "inputs": {
+                                "num_arg1": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "4O@:d.Pg46^*AJ,i8%B#",
+                                    "fields": {
+                                      "NUM": "by"
+                                    }
+                                  }
+                                },
+                                "num_arg2": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "z.hH/Az+B:u:+[p@bOB8",
+                                    "fields": {
+                                      "NUM": "209"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "statement_then": {
+                      "block": {
+                        "type": "msx_let",
+                        "id": "Y?Te66JF_AGXEfBHt*6*",
+                        "inputs": {
+                          "str_let_arg0": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "@7ODl*?2wQ;IK1Q`UBq%",
+                              "fields": {
+                                "TEXT": "bx"
+                              }
+                            }
+                          },
+                          "str_let_arg1": {
+                            "shadow": {
+                              "type": "text_input",
+                              "id": "l72a|o7D2cMVHf`NhaZ=",
+                              "fields": {
+                                "TEXT": "x"
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "msx_let",
+                            "id": "t`gxQ88w_Wg%BLO)3iAe",
+                            "inputs": {
+                              "str_let_arg0": {
+                                "shadow": {
+                                  "type": "text_input",
+                                  "id": "Vf%)HHRv.m@5H}oX6zrq",
+                                  "fields": {
+                                    "TEXT": "by"
+                                  }
+                                }
+                              },
+                              "str_let_arg1": {
+                                "shadow": {
+                                  "type": "text_input",
+                                  "id": ".9;{+4c}8Jn}P83nESpR",
+                                  "fields": {
+                                    "TEXT": "170"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "msx_rem",
+                      "id": "V1/dq_at-0=@qbnGwwfN",
+                      "inputs": {
+                        "str_comment": {
+                          "shadow": {
+                            "type": "text_input",
+                            "id": "{yOP=fTt_gjb;+?0@??E",
+                            "fields": {
+                              "TEXT": "移動"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "msx_if_then",
+                          "id": "qIE=lhOSEgYSu=*6O~a*",
+                          "inputs": {
+                            "num_condition": {
+                              "shadow": {
+                                "type": "text_input",
+                                "id": "|ELc:xLA@5)G(?`L==HY",
+                                "fields": {
+                                  "TEXT": "a=1"
+                                }
+                              },
+                              "block": {
+                                "type": "msx_equal",
+                                "id": "f!3eh8du`-FV0?2A0M/s",
+                                "fields": {
+                                  "str_mode": "<>"
+                                },
+                                "inputs": {
+                                  "num_arg1": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "KX!Alp-l6/?C:Q;w[#qz",
+                                      "fields": {
+                                        "NUM": "by"
+                                      }
+                                    }
+                                  },
+                                  "num_arg2": {
+                                    "shadow": {
+                                      "type": "number_input",
+                                      "id": "0+oB~g1/V$iEaNA1[Y:w",
+                                      "fields": {
+                                        "NUM": "209"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "statement_then": {
+                              "block": {
+                                "type": "msx_let",
+                                "id": "O@q@2k{0-X?qJx_NsxpM",
+                                "inputs": {
+                                  "str_let_arg0": {
+                                    "shadow": {
+                                      "type": "text_input",
+                                      "id": "#Nuu7j:BA.4C~6=]-8g6",
+                                      "fields": {
+                                        "TEXT": "by"
+                                      }
+                                    }
+                                  },
+                                  "str_let_arg1": {
+                                    "shadow": {
+                                      "type": "text_input",
+                                      "id": "pUp;Wo5rPjRE.9v)nk9A",
+                                      "fields": {
+                                        "TEXT": "170"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "msx_sub",
+                                      "id": "XDMh)p#M0bt7#HHU)(J5",
+                                      "inputs": {
+                                        "num_arg1": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "S|;MYd1FwNA$!;vN5Dlw",
+                                            "fields": {
+                                              "NUM": "by"
+                                            }
+                                          }
+                                        },
+                                        "num_arg2": {
+                                          "shadow": {
+                                            "type": "number_input",
+                                            "id": "?GFAgQv#Up8o68ZvKzM=",
+                                            "fields": {
+                                              "NUM": "16"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "msx_if_then",
+                                    "id": "Nt~^nlzm:XnPQrXih([$",
+                                    "inputs": {
+                                      "num_condition": {
+                                        "shadow": {
+                                          "type": "text_input",
+                                          "id": "qfYr;NN_Gj~n1!~$NFjC",
+                                          "fields": {
+                                            "TEXT": "a=1"
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "msx_less_than",
+                                          "id": "=).t=hSr37pz|9J??k{%",
+                                          "fields": {
+                                            "str_mode": "<"
+                                          },
+                                          "inputs": {
+                                            "num_arg1": {
+                                              "shadow": {
+                                                "type": "number_input",
+                                                "id": "ez*xzlsnZ/F;Tg):GVw{",
+                                                "fields": {
+                                                  "NUM": "by"
+                                                }
+                                              }
+                                            },
+                                            "num_arg2": {
+                                              "shadow": {
+                                                "type": "number_input",
+                                                "id": "+1Z(db{mYZ7ZYI0AL!y2",
+                                                "fields": {
+                                                  "NUM": "-12"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "statement_then": {
+                                        "block": {
+                                          "type": "msx_let",
+                                          "id": "VdrD2o%R{#q}E@RazV8?",
+                                          "inputs": {
+                                            "str_let_arg0": {
+                                              "shadow": {
+                                                "type": "text_input",
+                                                "id": "@X7wxA$rv/:Fu[k+,TZ0",
+                                                "fields": {
+                                                  "TEXT": "by"
+                                                }
+                                              }
+                                            },
+                                            "str_let_arg1": {
+                                              "shadow": {
+                                                "type": "text_input",
+                                                "id": "Cd!H@t`=~Uq/LT#btrTi",
+                                                "fields": {
+                                                  "TEXT": "209"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "msx_put_sprite",
+                              "id": "D6R.+Scc)CnaP2C)^=lj",
+                              "inputs": {
+                                "num_priority": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "{}iJOgK.@Q}$-!_wZlN4",
+                                    "fields": {
+                                      "NUM": "1"
+                                    }
+                                  }
+                                },
+                                "num_x": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "pufB+@ql`V[~ILcs0{Oa",
+                                    "fields": {
+                                      "NUM": "bx"
+                                    }
+                                  }
+                                },
+                                "num_y": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "N^XjD(M#q;L`E}2xw(qV",
+                                    "fields": {
+                                      "NUM": "by"
+                                    }
+                                  }
+                                },
+                                "num_color": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "r=n!K/N8(oOa7bU2|BA0",
+                                    "fields": {
+                                      "NUM": "7"
+                                    }
+                                  }
+                                },
+                                "num_pattern": {
+                                  "shadow": {
+                                    "type": "number_input",
+                                    "id": "C!.f^%HqKrEFe1@!IriR",
+                                    "fields": {
+                                      "NUM": "1"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "msx_rem",
+                                  "id": "c8:q))lJ9Xs*I{pyX@He",
+                                  "inputs": {
+                                    "str_comment": {
+                                      "shadow": {
+                                        "type": "text_input",
+                                        "id": "*5lS}pxx-[|okW4EB4gx",
+                                        "fields": {
+                                          "TEXT": "当たり判定"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "msx_if_then",
+                                      "id": "/GQ7XWbF$BEIH_.QWgaU",
+                                      "inputs": {
+                                        "num_condition": {
+                                          "shadow": {
+                                            "type": "text_input",
+                                            "id": "|ELc:xLA@5)G(?`L==HY",
+                                            "fields": {
+                                              "TEXT": "a=1"
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "msx_equal",
+                                            "id": "g7bO2#`/AH!RdsMzGxwQ",
+                                            "fields": {
+                                              "str_mode": "<>"
+                                            },
+                                            "inputs": {
+                                              "num_arg1": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "NtiG[A5.p1F{wE3*_J#[",
+                                                  "fields": {
+                                                    "NUM": "by"
+                                                  }
+                                                }
+                                              },
+                                              "num_arg2": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "yK1(jUE^O((b#v2gG.7$",
+                                                  "fields": {
+                                                    "NUM": "209"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "statement_then": {
+                                          "block": {
+                                            "type": "msx_for",
+                                            "id": "hS[6r{-6eEpH?3a2FaHa",
+                                            "inputs": {
+                                              "str_varable": {
+                                                "shadow": {
+                                                  "type": "text_input",
+                                                  "id": "eHUAGSlp2dNKd[*{xnMC",
+                                                  "fields": {
+                                                    "TEXT": "en"
+                                                  }
+                                                }
+                                              },
+                                              "num_start": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "]KUf4#QpJFNp{?$oW{9O",
+                                                  "fields": {
+                                                    "NUM": "1"
+                                                  }
+                                                }
+                                              },
+                                              "num_dest": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": ";2wXE*bb2z/H`J}M.7;-",
+                                                  "fields": {
+                                                    "NUM": "em"
+                                                  }
+                                                }
+                                              },
+                                              "num_step": {
+                                                "shadow": {
+                                                  "type": "number_input",
+                                                  "id": "GKJ|xbD;=cEuW!Khseon",
+                                                  "fields": {
+                                                    "NUM": "1"
+                                                  }
+                                                }
+                                              },
+                                              "statement_do": {
+                                                "block": {
+                                                  "type": "msx_if_then",
+                                                  "id": "6%-o;1djnK`1]6I1j:{J",
+                                                  "inputs": {
+                                                    "num_condition": {
+                                                      "shadow": {
+                                                        "type": "text_input",
+                                                        "id": "Z^k9vYFrry4PrGS:w)ut",
+                                                        "fields": {
+                                                          "TEXT": "a=1"
+                                                        }
+                                                      },
+                                                      "block": {
+                                                        "type": "msx_and",
+                                                        "id": "~H_A@][=rvn]QqL;uzZf",
+                                                        "inputs": {
+                                                          "num_arg1": {
+                                                            "shadow": {
+                                                              "type": "number_input",
+                                                              "id": "^C.*QL{5fjN$}g{*8@6x",
+                                                              "fields": {
+                                                                "NUM": "a"
+                                                              }
+                                                            },
+                                                            "block": {
+                                                              "type": "msx_less_than",
+                                                              "id": "M$c%AKG!qmbBBfsNDt^g",
+                                                              "fields": {
+                                                                "str_mode": "<"
+                                                              },
+                                                              "inputs": {
+                                                                "num_arg1": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": "Jke`YqoZnLh;O/;FC:rV",
+                                                                    "fields": {
+                                                                      "NUM": "ez(en)"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "num_arg2": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": ".Vq!iT$k}/nfoL*kbZ_d",
+                                                                    "fields": {
+                                                                      "NUM": ""
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_add",
+                                                                    "id": "51{QQdThjF2?J3Xd@gjh",
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "^KtJ.QY(nRXvDgBOek!{",
+                                                                          "fields": {
+                                                                            "NUM": "bx"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "[t8N,hmL^M8`w:(zD@ga",
+                                                                          "fields": {
+                                                                            "NUM": "6"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "num_arg2": {
+                                                            "shadow": {
+                                                              "type": "number_input",
+                                                              "id": "Kd*#Y=KOIS6?3csHP4W$",
+                                                              "fields": {
+                                                                "NUM": "b"
+                                                              }
+                                                            },
+                                                            "block": {
+                                                              "type": "msx_less_than",
+                                                              "id": "`|g){8ZN1q_Og/zY.6x~",
+                                                              "fields": {
+                                                                "str_mode": "<"
+                                                              },
+                                                              "inputs": {
+                                                                "num_arg1": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": "x!Fb}$u%.5Hewoi9~ZsF",
+                                                                    "fields": {
+                                                                      "NUM": "1"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_add",
+                                                                    "id": "bb*K^c%I-X!PgecY6@IQ",
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "|0sh-~THX/K(c/aQ#uj2",
+                                                                          "fields": {
+                                                                            "NUM": "bx"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "`#KQ^z]~txyUV`p,=N,r",
+                                                                          "fields": {
+                                                                            "NUM": "7"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "num_arg2": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": "`w[V%P+0QH)E.+M_):DA",
+                                                                    "fields": {
+                                                                      "NUM": "2"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_add",
+                                                                    "id": "CwT(q3+VG^3x!S-8aegg",
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "X+!#1PHP.bk5d%I%=ZTg",
+                                                                          "fields": {
+                                                                            "NUM": "ez(en)"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "i$Lt7xJ_K()3_*6q8zlh",
+                                                                          "fields": {
+                                                                            "NUM": "15"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "statement_then": {
+                                                      "block": {
+                                                        "type": "msx_if_then",
+                                                        "id": "U6ha$BiX,Twy:q8|/ZPX",
+                                                        "inputs": {
+                                                          "num_condition": {
+                                                            "shadow": {
+                                                              "type": "text_input",
+                                                              "id": "Z^k9vYFrry4PrGS:w)ut",
+                                                              "fields": {
+                                                                "TEXT": "a=1"
+                                                              }
+                                                            },
+                                                            "block": {
+                                                              "type": "msx_and",
+                                                              "id": "%BCTGle~bZOi}3B*53O1",
+                                                              "inputs": {
+                                                                "num_arg1": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": "^C.*QL{5fjN$}g{*8@6x",
+                                                                    "fields": {
+                                                                      "NUM": "a"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_less_than",
+                                                                    "id": "Wf$/gwcqn(/G.Q=NwKTT",
+                                                                    "fields": {
+                                                                      "str_mode": "<"
+                                                                    },
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "o)gcArvWgcG`h]RC]+wm",
+                                                                          "fields": {
+                                                                            "NUM": "ey(en)"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": ".Vq!iT$k}/nfoL*kbZ_d",
+                                                                          "fields": {
+                                                                            "NUM": "by"
+                                                                          }
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "msx_add",
+                                                                          "id": ";F|%=aHe9y^x/(+jc^n5",
+                                                                          "inputs": {
+                                                                            "num_arg1": {
+                                                                              "shadow": {
+                                                                                "type": "number_input",
+                                                                                "id": "Q{Uv[H]FD{.LGfE$THbm",
+                                                                                "fields": {
+                                                                                  "NUM": "by"
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "num_arg2": {
+                                                                              "shadow": {
+                                                                                "type": "number_input",
+                                                                                "id": "~x#7A}[;=E3G34(z1/HK",
+                                                                                "fields": {
+                                                                                  "NUM": "14"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "num_arg2": {
+                                                                  "shadow": {
+                                                                    "type": "number_input",
+                                                                    "id": "Kd*#Y=KOIS6?3csHP4W$",
+                                                                    "fields": {
+                                                                      "NUM": "b"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_less_than",
+                                                                    "id": "-vDxG;AQFY4i1,8tUm?I",
+                                                                    "fields": {
+                                                                      "str_mode": "<"
+                                                                    },
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "x!Fb}$u%.5Hewoi9~ZsF",
+                                                                          "fields": {
+                                                                            "NUM": "by"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "`w[V%P+0QH)E.+M_):DA",
+                                                                          "fields": {
+                                                                            "NUM": "2"
+                                                                          }
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "msx_add",
+                                                                          "id": "KAU6Xdz}(FP-eT7M!f:]",
+                                                                          "inputs": {
+                                                                            "num_arg1": {
+                                                                              "shadow": {
+                                                                                "type": "number_input",
+                                                                                "id": "wOSaYX!1QsXUYdqISp$Q",
+                                                                                "fields": {
+                                                                                  "NUM": "ey(en)"
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "num_arg2": {
+                                                                              "shadow": {
+                                                                                "type": "number_input",
+                                                                                "id": "x?O?aEtzDizaAzrQD/{}",
+                                                                                "fields": {
+                                                                                  "NUM": "15"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "statement_then": {
+                                                            "block": {
+                                                              "type": "msx_let",
+                                                              "id": "=x`=/H;@V)A8CM[i6uG[",
+                                                              "inputs": {
+                                                                "str_let_arg0": {
+                                                                  "shadow": {
+                                                                    "type": "text_input",
+                                                                    "id": "e@xM;2OH]`Dz0a$_+UwY",
+                                                                    "fields": {
+                                                                      "TEXT": "sc"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "str_let_arg1": {
+                                                                  "shadow": {
+                                                                    "type": "text_input",
+                                                                    "id": "TUT8Be/]}64`~1cJLhLU",
+                                                                    "fields": {
+                                                                      "TEXT": "1"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "msx_add",
+                                                                    "id": "d_f]nNKX$5@v9-BSS_nr",
+                                                                    "inputs": {
+                                                                      "num_arg1": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "tLzl[(gVCDFhz(B?SUAS",
+                                                                          "fields": {
+                                                                            "NUM": "sc"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "num_arg2": {
+                                                                        "shadow": {
+                                                                          "type": "number_input",
+                                                                          "id": "lJo*WgWa?R:0IG:3%q$%",
+                                                                          "fields": {
+                                                                            "NUM": "1"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "next": {
+                                                                "block": {
+                                                                  "type": "msx_locate",
+                                                                  "id": "+tb|I0z.;K_QudQSAz,7",
+                                                                  "inputs": {
+                                                                    "num_x": {
+                                                                      "shadow": {
+                                                                        "type": "number_input",
+                                                                        "id": "}KUFbG{%D3?=H?a8^z@v",
+                                                                        "fields": {
+                                                                          "NUM": "5"
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "num_y": {
+                                                                      "shadow": {
+                                                                        "type": "number_input",
+                                                                        "id": "C{5I)!rtqUQh1cTrrC#~",
+                                                                        "fields": {
+                                                                          "NUM": "0"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "next": {
+                                                                    "block": {
+                                                                      "type": "msx_print",
+                                                                      "id": "~k0CNi[!3k74[Xm33,9p",
+                                                                      "inputs": {
+                                                                        "str_text": {
+                                                                          "shadow": {
+                                                                            "type": "text_input",
+                                                                            "id": "LSnDXF3?yP^v{(gO,-97",
+                                                                            "fields": {
+                                                                              "TEXT": "sc"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "next": {
+                                                                        "block": {
+                                                                          "type": "msx_call_subproc",
+                                                                          "id": "V]197AbruUduYSPBQcDc",
+                                                                          "inputs": {
+                                                                            "str_proc_name": {
+                                                                              "shadow": {
+                                                                                "type": "text_input",
+                                                                                "id": "O,^tyg`VZgBGTFjfs/}d",
+                                                                                "fields": {
+                                                                                  "TEXT": "敵初期化"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
